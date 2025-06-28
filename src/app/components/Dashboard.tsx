@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import ProjectCard from './ProjectCard';
 import AddProjectModal from './AddProjectModal';
-import { projectService, memberService } from '../../lib/database';
+import { projectService } from '../../lib/database';
 import type { Project } from '../../lib/supabase';
 
 export default function Dashboard() {
